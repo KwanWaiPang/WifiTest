@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //按照rssi来排序(小到大排序)
+    //按照rssi来排序(小到大排序。)
     static Comparator<WifiStream> comparator = new Comparator<WifiStream>() {
         @Override
         public int compare(WifiStream p1 , WifiStream p2 ) {
